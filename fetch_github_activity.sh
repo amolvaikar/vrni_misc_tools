@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+set +x
 
 # Check if gh CLI is installed
 if ! command -v gh &> /dev/null
