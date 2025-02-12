@@ -29,7 +29,7 @@ if [ ! -f "$USER_FILE" ]; then
 fi
 
 # Initialize summary file
-SUMMARY_FILE="summary.csv"
+SUMMARY_FILE="summary_$START_DATE_$END_DATE.csv"
 echo "Username,Total Commits,Total PRs,Total Reviews" > "$SUMMARY_FILE"
 
 # Function to fetch commits
